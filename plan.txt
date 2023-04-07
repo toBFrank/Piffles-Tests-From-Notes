@@ -1,0 +1,159 @@
+#####################################################################
+Title: The Plan for PIFFLES
+Description: Revolutionize your study routine and outsmart the 
+#            competition with an app that turns your notes into 
+#            epic practice tests, complete with AI-powered question 
+#            generation and personalized performance analytics!
+Author: Franco Bonilla
+#####################################################################
+
+
+
+
+
+Date: 2023/04/07
+Version: 1.0
+---------------------------------------------------------------------
+Planning Steps
+---------------------------------------------------------------------
+1. What will the app do?
+    - Scenario
+    - User Stories
+2. What features will it have?
+3. What technologies will I use to build the app?
+4. What will the app look like?
+
+
+- Scenario
+    I open the Piffles web app on my laptop. I 
+    am already logged in, so I see my library of
+    tests. I want to make a new test, so I click
+    the "New Test" button. A popup appears, asking
+    to upload some notes. I drag and drop a PDF
+    of my CMPUT 301 notes on Software Processes 
+    into the upload box. A title is made 
+    automatically, "Software Processes".
+    I edit the title to be "CMPUT 301: Ch. 5: 
+    Software Processes", and I add a description
+    that says "Notes from Ch. 5 of CMPUT 301". I 
+    click the "Make Test" button. A popup opens, 
+    asking if I want to do an individual test or a
+    group competition. I click "Individual Test". 
+    I see a list of 10 questions, each with 4
+    choices (a, b, c, d). After I finish the test,
+    I click "Done!". I see my new score, new time
+    taken, and my old best score and time taken. I
+    also see all the questions and answers, both 
+    my answer and the correct answer being indicated.
+    I didn't realize my friend was watching until he
+    shouts, "LET ME PLAY TOO!". I click "exit" and I
+    am back to my library. I click on the "CMPUT 301:
+    Ch. 5: Software Processes" test, and this time I
+    click "Group Competition". A new page w/ a 
+    number code and a qr code appears. I pull out my
+    phone and scan the qr code w/ my camera. I am now
+    in the game, along with my friend. I click start 
+    on the laptop and the game begins. After every
+    question, I see my friend's answer and my answer, 
+    as well as our place in the leaderboard. Since 
+    I am a better test taker, I WIN!
+
+
+- User Stories
+    01 - Player
+        01.01.01 - As a player, I want to 
+                   see all my tests.
+        01.02.01 - As a player, I want to
+                   make tests from my library.
+        01.03.01 - As a player, I want to
+                   delete tests.
+        01.04.01 - As a player, I want to
+                   see my recently played tests.
+        01.05.01 - As a player, I want to
+                   scan or enter a code to join
+                   a group competition.
+        01.06.01 - As a player, I want to
+                   report questions that are
+                   incorrect.
+    02 - Tests
+        02.01.01 - As a player, I want to 
+                   upload notes to make a test.
+        02.02.01 - As a player, I want to
+                   edit the title and description
+                   of a test.
+        02.03.01 - As a player, I want to 
+                   add/edit/remove questions 
+                   in a test.
+        02.04.01 - As a player, I want to see 
+                   the correct answers after I 
+                   finish a test.
+        02.05.01 - As a player, I want to 
+                   see my score and time taken
+                   after I finish a test.
+        02.06.01 - As a player, I want to 
+                   see my best score and time
+                   taken after I finish a test.
+        02.07.01 - As a player, I want to
+                   see my rank in the leaderboard
+                   after I finish a test.
+        02.08.01 - As a player, I want to 
+                   play a test individually.
+        02.09.01 - As a player, I want to
+                   play a test in a group.
+        02.10.01 - As a player, I want to
+                   get multiple-choice questions
+                   auto-created from my notes.
+        02.11.01 - As a player, I want to
+                   have the questions randomized
+                   when I play a test.
+        02.12.01 - As a player, I want to
+                   choose the number of questions
+                   in a test.
+        02.13.01 - As an owner, I want to
+                   make the questions.
+                       - Using AI*
+    03 - Profile
+        03.01.01 - As a player, I want a
+                   password, email, and 
+                   unique username.
+        03.02.01 - As a player, I want to
+                   be remembered when I log in.
+    04 - Searching
+        04.01.01 - As a player, I want to
+                   search for tests by title.
+    
+
+- Technologies
+    Frontend
+        - HTML/CSS
+        - Javascript
+        - Typescript
+        - React
+    Backend
+        - MongoDB
+        - Express
+        - Node.js
+
+
+
+
+
+
+
+---------------------------------------------------------------------
+AI* For Question and Answers Making
+---------------------------------------------------------------------
+1. Convert PDF/PPT to text. If a picture of notes, 
+   use OCR(?) to convert to text. --> (Notes pics is extra)
+2. Use Natural Language Processing (NLP) to find concepts
+   and links between concepts, leading to the key ideas from
+   the notes.
+   - spaCy
+   - NLTK
+3. Make a database/knowledge graph of concepts and links
+   between concepts.
+   - Neo4j (for graph database)
+   - MongoDB
+4. Use the database to make questions and answers using a
+   rule-based/template-based system.
+   - Python
