@@ -101,8 +101,7 @@ Planning Steps
         02.09.01 - As a player, I want to
                    play a test in a group.
         02.10.01 - As a player, I want to
-                   get multiple-choice questions
-                   auto-created from my notes.
+                   turn my notes into text.
         02.11.01 - As a player, I want to
                    have the questions randomized
                    when I play a test.
