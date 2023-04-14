@@ -75,6 +75,8 @@ Planning Steps
         01.06.01 - As a player, I want to
                    report questions that are
                    incorrect.
+        01.07.01 - As a player, I want to
+                   collaborate w/ others when making the tests.
     02 - Tests
         02.01.01 - As a player, I want to 
                    upload notes to make a test.
