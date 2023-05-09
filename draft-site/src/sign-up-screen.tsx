@@ -10,7 +10,7 @@ function SignUp() {
           <button id='login-button'>Log in?</button>
         </div>
         <div className="google-signin">
-          <button id='google-signin-button'>Sign in with G</button>
+          <button id='google-signin-button'>Sign up with G</button>
         </div>
         <div className="seperator">
           
@@ -35,8 +35,8 @@ function SignUp() {
               <input type="text" />
             </label>
             <label>
-              {/* <span className='inputfield'>Birthday:</span> */}
-              Birthday:
+              <span className='inputfield'>Birthday:</span>
+              {/* Birthday: */}
               <input type="text" />
             </label>
           </form>
