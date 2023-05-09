@@ -1,0 +1,129 @@
+.sign-up{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #FFDCB6;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 40px;
+    width: 800px;
+    height: 500px;
+}
+
+.nav-top{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 84px;
+    margin-top: 20px;
+}
+
+.nav-top button{
+    /* background-color: #C9A7EB; */
+    background-color: transparent;
+    border: none;
+    border-radius: 40px;
+    font-size: 1.7rem;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 20px;
+    padding: 13px;
+}
+
+#sign-up-button{
+    background-color: #C9A7EB;
+}
+
+.google-signin{
+    background-color: white;
+    width: 270px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.seperator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.seperator hr{
+    width: 150px;
+    height: 1px;
+    background-color: #FF6B6B;
+    border: none;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+#google-signin-button{
+    border: none;
+    font-size: 1.7rem;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: transparent;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#google-signin-button:hover{
+    color: #FF6B6B;
+}
+
+.signup-button{
+    background-color: #ECC9EE;
+    width: 270px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register{
+    display: flex;
+    flex-direction: row;
+    /* margin-bottom: 30px; */
+    /* justify-content: center; */
+}
+
+
+span{
+    text-align: left;
+}
+
+.form label input{
+    border: none;
+    background-color: #9384D1;
+    border-radius: 30px;
+    width: 300px;
+    height: 40px;
+    padding-left: 15px;
+    color: #FFFFFF;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+.form label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin : 10px;
+    text-align: left;
+}
